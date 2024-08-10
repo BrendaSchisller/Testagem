@@ -35,7 +35,7 @@ public class ControleRemotoBasico extends ControleRemoto {
 
     @Override
     public void silenciar() {
-               System.out.println("Dispositivo silenciado");
+               System.out.println("Dispositivo silenciado e tesao");
         while(dispositivo.estaLigado()){
             dispositivo.diminuirVolume();
     }

@@ -23,7 +23,7 @@ public class Principal {
         
         Dispositivo radio = new Radio();
         ControleRemoto controleAvancado = new ControleRemotoAvancado(radio);
-        System.out.println("Usando controle de remoton avancado");
+        System.out.println("Usando controle de remoton avancado e bonito lindo gostoso aiaiuiui");
         controleAvancado.ligarDesligar();
         controleAvancado.aumentarVolume();
         controleAvancado.silenciar();
